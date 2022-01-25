@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+
+.form-wrapper {
+   
+    background: #dddddd;
+    margin:  auto;
+    padding: 0 1em;
+    max-width: 800px;
+}
+/*ユーザー登録　（タイトル）*/
+.label-title {
+ font-size: 30px;
+ text-align: auto;
+ border: solid 2px  #fffcfc;
+  border-radius: 4px;
+  background:  #fd9535;
+  color: #fff;
+}
+ 
+ 
+ 
+form {
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 600px; /*全体の横幅*/
+ }
+ 
+
+ 
+ 
+.form-sample {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ padding-left: 14px;
+ padding-right: 14px;
+ padding-bottom: 15px;
+}
+ 
+ 
+ /*文字*/
+.form-label {
+ width: 100%;
+ align-items: center;
+ max-width: 248px;
+ font-weight: bold;
+ font-size: 15px;
+}
+ 
+.form-label.last {
+ margin-top: 10px;
+ margin-bottom: auto;
+}
+ /*「必須」テキスト*/
+.form-require {
+ border-radius: 5px;
+ margin-right: 10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ width: 50px;
+ display: inline-block;
+ text-align: center;
+ background: #eb0b0b;
+ color: #fff;
+ font-size: 12px;
+}
+ /*テキストボックス*/
+.form-input {
+ border: 1px solid gray;
+ border-radius: 5px;
+ margin-left: 40px;
+ padding-left: 10px;
+ height: 50px;
+ width: 80%;
+ max-width: 350px;
+ font-size: 18px;
+}
+ 
+.form-textarea {
+ border: 1px solid gray;
+ border-radius: 6px;
+ margin-left: 40px;
+ padding-left: 1em;
+ padding-right: 1em;
+ height: 216px;
+ flex: 1;
+ width: 100%;
+ max-width: 410px;
+ font-size: 18px;
+}
+ 
+.form-Btn {
+ border-radius: 6px;
+ margin-top: 32px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ width: 280px;
+ display: block;
+ letter-spacing: 0.05em;
+ background: #340beb;
+ color: #fff;
+ font-weight: bold;
+ font-size: 20px;
+}
+
+.btn-square-pop {
+    border-radius: 6px;
+
+    width: 8em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    padding: 0.50em 1.0em; /*ボタンサイズ*/ 
+    text-decoration: none;
+    color: #FFF;
+    background: #fd9535;/*背景色*/
+    border-bottom: solid 2px #d27d00;/*少し濃い目の色に*/
+    border-radius: 4px;/*角の丸み*/
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+  }
+  
+  .btn-square-pop:active {
+    border-bottom: solid 2px #fd9535;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+  }
+
+/*背景*/
+.slide {
+    height: 100vh;
+   }
+   .slide1 {
+     background-color: #fff; 
+     background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+     linear-gradient(#eee .1em, transparent .1em);
+     background-size: 100% 1.2em;
+   }
+   
+   
+   .fix-it {
+      background-attachment: fixed;
+   }
+
+
+

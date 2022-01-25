@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/*  ボックス */
+.form-wrapper {
+  background: #dddddd;
+  margin:  auto;
+  padding: 0 1em;
+  max-width: 370px;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em 0;
+}
+
+form {
+  padding: 0 1.5em;
+}
+
+
+
+.button-panel .button {
+  background: #fd9535;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+  width: 100%;
+}
+
+.button:hover {
+  background: #ee3e52;
+}
+
+.form-footer {
+  font-size: 1em;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.form-footer a {
+  color: #4e4e4e;
+  text-decoration: none;
+  transition: border-color 0.3s;
+}
+
+.form-footer a:hover {
+  border-bottom: 1px dotted #8c8c8c;
+}
+
+/*背景*/
+.slide {
+    height: 100vh;
+   }
+   .slide1 {
+     background-color: #fff; 
+     background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+     linear-gradient(#eee .1em, transparent .1em);
+     background-size: 100% 1.2em;
+   }
+   
+   
+   .fix-it {
+      background-attachment: fixed;
+   }
+  
